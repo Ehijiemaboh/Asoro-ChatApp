@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+        <link
+            rel="stylesheet"    
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script defer src="js/script.js"></script>
+        <title>chat with us</title> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="cards">
+                <div class="card-header">
+                    <!--username should be unique-->
+                    <h2 class="headertext"> Chatbot </br> Support Agent</h2>
+                </div>
+                <div class="card-body">
+                    <div class="chat chat-bot">
+                        <span class="user-icon"><i class="fa fa-robot"></i></span>
+                        <!--username should be unique-->
+                        <p> Hello username <br> Welcome to LiveChart Drop your message and we will reply you right away </p>                   
+                     </div>
+                    <div class="chat user">
+                        <span class="user-icon"><i class="fa fa-user"></i></span>
+                        <p class="userp"> Welcome </p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <textarea 
+                        name="massage"
+                        class="input-chat"
+                        id=""
+                        cols="10"
+                        rows="1"
+                        placeholder="ask me anything...">
+                    </textarea>
+                    <div class="sending-icon">
+                        <i class="fa fa-paper-plane" style="font-size:24px"></i>   
+                     </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
